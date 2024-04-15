@@ -1,0 +1,91 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#wrap {
+    width: 1980px;
+    height: 1080px;
+    margin: 0 auto;
+}
+
+#main {
+    display: flex;
+    position: relative;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6 {
+    background-color: black;
+}
+
+.box1 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    left: 25%;
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 150px;
+    left: 30%;
+}
+
+.box3 {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 350px;
+    left: 40%;
+}
+
+.box4 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 650px;
+    left: 55%;
+}
+
+.box5 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 850px;
+    left: 65%;
+}
+
+.box6 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50px;
+    left: 75%;
+}
+
+.mini-box1, .mini-box2, .mini-box3 {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+}
+
+.mini-box1 {
+    top: 50px;
+    left: 40%;
+    position: absolute;
+}
+
+.mini-box2 {
+    top: 250px;
+    left: 55%;
+    position: absolute;
+}
+
+.mini-box3 {
+    top: 750px;
+    left: 30%;
+    position: absolute;
+}
